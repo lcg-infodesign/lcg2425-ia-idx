@@ -17,8 +17,9 @@ function drawRotateBasketBall(xCenter, yCenter,
    dBall, angle){
     push();
     //codice delle trasformazioni
+    translate(xCenter,yCenter);
     rotate(angle);
-    drawBasketball(xCenter,yCenter,dBall);
+    drawBasketball(0,0,dBall);
     pop();
 }
 
