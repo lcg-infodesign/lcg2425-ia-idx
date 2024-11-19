@@ -7,8 +7,8 @@ let otherImage;
 // letters.
 //taken from "Make: Getting Started with p5.js" book
 function preload(){
-  catImage = loadImage("../assets/cat-pixabay-bw.jpg");
-  otherImage = loadImage("../assets/cat-pixabay.jpg");
+  catImage = loadImage("../../assets/cat-pixabay-bw.jpg");
+  otherImage = loadImage("../../assets/cat-pixabay.jpg");
 }
 
 function setup() {
@@ -16,7 +16,7 @@ function setup() {
   // Hide the cursor and replace it with a picture of
   // a paintbrush.
   noCursor();
-  cursor("../assets/artist-pixabay.png", 20, -10);
+  cursor("../../assets/artist-pixabay.png", 20, -10);
   image(catImage,0,0);
 
 }
