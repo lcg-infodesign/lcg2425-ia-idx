@@ -30,6 +30,7 @@ function setup() {
   //     riversData.get(r,c);
   //   }
   // }
+  lunghezze.sort( (a,b) => b - a );
   angleMode(DEGREES);
 }
 
