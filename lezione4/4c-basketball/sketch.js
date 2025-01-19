@@ -29,10 +29,10 @@ function drawBasketball(xCenter, yCenter, dBall) {
   stroke(0);
   strokeWeight(3);
   circle(xCenter, yCenter, dBall);
-  line(-50+xCenter,yCenter, 
-    50+xCenter, 0+yCenter);
-  line(-35+xCenter, -35+yCenter,
-    35+xCenter, 35+yCenter);
-  line(-35+xCenter, 35+yCenter,
-    35+xCenter, -35 + yCenter);
+  line(-(dBall/2)+xCenter,yCenter,
+   (dBall/2)+xCenter, 0+yCenter);
+  line(-(dBall/3)+xCenter, -(dBall/3)+yCenter,
+   (dBall/3)+xCenter, (dBall/3)+yCenter);
+  line(-(dBall/3)+xCenter, (dBall/3)+yCenter,
+   (dBall/3)+xCenter, -(dBall/3) + yCenter);
 }
